@@ -1,14 +1,14 @@
-import React from "react";
-import SearchForm from "../search-form/SearchForm";
-import FlightsSchedule from "../flights-schedule/flightsSchedule";
+import React from 'react'
+import SearchForm from '../search-form/SearchForm'
+import FlightsSchedule from '../flights-schedule/flightsSchedule'
 
 const AirportPage = () => {
-  return (
-    <>
-      <SearchForm />
-      <FlightsSchedule/>
-    </>
-  );
-};
+	return (
+		<>
+			<SearchForm />
+			<FlightsSchedule />
+		</>
+	)
+}
 
-export default AirportPage;
+export default AirportPage

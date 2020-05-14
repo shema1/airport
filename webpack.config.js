@@ -39,6 +39,7 @@ module.exports = (env, argv) => {
             new HtmlWebpackPlugin({
                 template: "./src/index.html"
             }),
+            new CopyPlugin([{ from: '_redirects', to: '' }]),
         ],
         devServer: {
             hot: true,

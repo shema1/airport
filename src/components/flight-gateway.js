@@ -1,5 +1,5 @@
-const baseUrl = 'https://api.iev.aero/api/flights';
+const baseUrl = 'https://api.iev.aero/api/flights'
 
-export const fetchFlights = (data) =>{
-    return fetch(`${baseUrl}/${data}`).then(response => response.json())
+export const fetchFlights = data => {
+	return fetch(`${baseUrl}/${data}`).then(response => response.json())
 }
