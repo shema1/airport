@@ -1,0 +1,111 @@
+.search-results {
+  width: 1120px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.nav {
+  display: flex;
+  background-color: #72d2f0;
+  border-radius: 60px 60px 0 0;
+  height: 60px;
+  &__item {
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  &__item a{
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.nav-active {
+  background-color: #fff;
+  border-radius: 60px 60px 0 0;
+}
+.nav-active a{
+ color: #1eb7ee;
+}
+.nav-date {
+  background-color: #fff;
+  display: flex;
+  padding: 20px 0 20px 10px;
+}
+
+.date {
+  cursor: pointer;
+  text-align: center;
+  color: #b8b9b9;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #d0d0d0;
+  width: 120px;
+  padding-right: 10px;
+  &__num {
+    font-size: 12px;
+  }
+  &__title {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+  }
+}
+
+.date-active {
+  color: #1eb7ee;
+  border-color: #1eb7ee;
+}
+
+.flights-schedule {
+  background-color: #fff;
+  &__header {
+    width: 100%;
+  }
+  &__body {
+    text-align: center;
+  }
+}
+
+.flights-schedule table {
+  width: 100%;
+}
+
+.res-elem {
+  font-size: 18px;
+  line-height: 40px;
+  padding: 16px 10px;
+  border: none;
+}
+.res-line:nth-child(odd) {
+  background-color: #dee2e6;
+}
+
+.logo img {
+  height: 30px;
+}
+.logo li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.res-line {
+  text-align: center;
+}
+.terminal-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 40px;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 50%;
+  border: 1px solid #63c745;
+  color: #63c745;
+  margin-top: 6px;
+}
+
